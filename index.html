@@ -12,44 +12,44 @@
 </head>
 
 <body>
-    <header>
-        <nav >
-            <div class="container mt-17">
-                <div class="d-flex align-items-center justify-content-between">
-                    <a class="d-flex align-items-center gap-15 text-decoration-none" href="#">
-                        <img src="assets/images/logo-img.svg" alt="logo img">
-                        <h2 class="logo-text text-blue-900 fs_2xl fw_md">
-                            Event<span class=" text-blue-400">Free</span>
-                        </h2>
-                    </a>
-                    <input type="checkbox" id="checkbox" hidden>
-                    <label for="checkbox">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                    </label>
-                    <div class="nav-content">
-                        <ul class="d-lg-flex d-block align-items-center gap-64 ps-0 mb-0">
-                            <li>
-                                <a class="fs_base text-black fw_xs text-decoration-none" href="">HOME</a>
-                            </li>
-                            <li>
-                                <a class="fs_base text-black fw_xs text-decoration-none" href="">EVENTS</a>
-                            </li>
-                            <li>
-                                <a class="fs_base text-black fw_xs text-decoration-none" href="">FEED</a>
-                            </li>
-                            <li>
-                                <a class="fs_base text-black fw_xs text-decoration-none" href="">USER NAME</a>
-                            </li>
-                            <li>
-                                <button class="text-white fs_base fw_base nav-button">Log Out</button>
-                            </li>
-                        </ul>
-                    </div>
+    <nav class="position-sticky top-0 z-3 bg-white">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <a class="d-flex align-items-center gap-15 text-decoration-none" href="#">
+                    <img src="assets/images/logo-img.svg" alt="logo img">
+                    <h2 class="logo-text text-blue-900 fs_2xl fw_md">
+                        Event<span class=" text-blue-400">Free</span>
+                    </h2>
+                </a>
+                <input type="checkbox" id="checkbox" hidden>
+                <label for="checkbox">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </label>
+                <div class="nav-content">
+                    <ul class="d-lg-flex d-block align-items-center gap-64 ps-0 mb-0">
+                        <li>
+                            <a class="fs_base text-black fw_xs text-decoration-none" href="">HOME</a>
+                        </li>
+                        <li>
+                            <a class="fs_base text-black fw_xs text-decoration-none" href="">EVENTS</a>
+                        </li>
+                        <li>
+                            <a class="fs_base text-black fw_xs text-decoration-none" href="">FEED</a>
+                        </li>
+                        <li>
+                            <a class="fs_base text-black fw_xs text-decoration-none" href="">USER NAME</a>
+                        </li>
+                        <li>
+                            <button class="text-white fs_base fw_base nav-button">Log Out</button>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <header class="pb-79">
         <div class="container">
             <div class="row mt-67 d-flex flex-column flex-xl-row row-gap-30 ">
                 <div class="col-xl-4 col-12 d-flex justify-content-center">
@@ -60,17 +60,645 @@
                     <div class="d-flex flex-column flex-md-row row-gap-13 justify-content-between mt-12 mb-16">
                         <h1 class="mb-0 fs_3xl fw_base d-flex justify-content-center white-space-nowrap">Jhone Doe</h1>
                     </div>
-                    <p class="fs_base fw_xs text-gray-900 mb-38 mt-16 text-center text-xl-start">Dictumst vulputate eget
+                    <p class="fs_base fw_xs text-gray-900 mb-29 mt-16 text-center text-xl-start">Dictumst vulputate eget
                         quisque iaculis hendrerit
                         quis ut fringilla. Senectus gravida sed
                         interdum pretium at quam
                         morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit. Ut
                         vitae dolor fringilla urna
                         eget aliquet.</p>
+                    <h3 class="fs-base fw_base text-gray-900">Following Events :</h3>
+                    <div class="mt-17 d-flex flex-column flex-md-row gap-15">
+                        <div class="d-flex flex-column flex-sm-row gap-15">
+                            <div class="header-card d-flex  justify-content-center align-items-center gap-15 ">
+                                <img class="max-w-114" src="assets/images/header-card-img-1.png" alt="">
+                                <div>
+                                    <h2 class="fs-base fw_md white-space-nowrap">Augue etiam</h2>
+                                    <p class="fs_xs fw_xs text-gray-900 mb-0">Quis et id urna sagittis. Enim lacus,
+                                        felis,
+                                        libero sed nisl
+                                        vitae blandit sociis.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="header-card d-flex justify-content-center align-items-center gap-15 ">
+                                <img class="max-w-114" src="assets/images/header-card-img-2.png" alt="">
+                                <div>
+                                    <h2 class="fs-base fw_md white-space-nowrap">Augue etiam</h2>
+                                    <p class="fs_xs fw_xs text-gray-900 mb-0">Quis et id urna sagittis. Enim lacus,
+                                        felis,
+                                        libero sed nisl
+                                        vitae blandit sociis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-more-card d-flex justify-content-center align-items-center gap-15 ">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <h2 class="fs-2xl fw_base text-gray-900 mb-0">+15</h2>
+                                <p class="fs_xs fw_xs text-gray-900 mb-0 ">more </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        </div>
     </header>
+    <section class="section-2">
+        <div class="container ">
+            <svg width="189" height="8" viewBox="0 0 189 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1" width="188" height="8" fill="#01C8FF" />
+                <rect width="166" height="8" fill="#2C49FE" />
+            </svg>
+            <h1 class="fs-3xl fw_base">New Posts</h1>
+            <div class="padding-34 container-border mt-30">
+                <div class="row d-flex row-gap-5">
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex gap-4 align-items-center mb-45">
+                            <img src="assets/images/section-2-img-1.png" alt="">
+                            <div>
+                                <h3 class="fs-xl fw_base">Username</h3>
+                                <span class="fs-base fw_xs text-gray-900">Post event name</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="fs-xl fw_base">Fusce adipiscing nunc et tellus eu, tristique sodales sit aliquet.
+                            </h1>
+                            <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-2 mb-4">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path
+                                            d="M7 11H9V13H7V11ZM7 15H9V17H7V15ZM11 11H13V13H11V11ZM11 15H13V17H11V15ZM15 11H17V13H15V11ZM15 15H17V17H15V15Z"
+                                            fill="black" />
+                                        <path
+                                            d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z"
+                                            fill="black" />
+                                    </g>
+                                </svg>
+                                10/02/2022</span>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2  ">Dictumst
+                                vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus
+                                gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</article>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-3 ">Sed
+                                interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna.
+                                Hendrerit vulputate in duis donec sit. Ut
+                                vitae dolor fringilla urna eget aliquet.</article>
+                            <div class="d-flex gap-5 mt-4">
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.5 1C3.4625 1 1 3.4625 1 6.5C1 12 7.5 17 11 18.163C14.5 17 21 12 21 6.5C21 3.4625 18.5375 1 15.5 1C13.64 1 11.995 1.9235 11 3.337C10.4928 2.6146 9.81908 2.02505 9.03577 1.61824C8.25245 1.21144 7.38265 0.999377 6.5 1Z"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>10
+                                </span>
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.75018 8.75C5.92049 8.75 5.25018 9.42031 5.25018 10.25C5.25018 11.0797 5.92049 11.75 6.75018 11.75C7.57987 11.75 8.25018 11.0797 8.25018 10.25C8.25018 9.42031 7.57987 8.75 6.75018 8.75ZM12.0002 8.75C11.1705 8.75 10.5002 9.42031 10.5002 10.25C10.5002 11.0797 11.1705 11.75 12.0002 11.75C12.8299 11.75 13.5002 11.0797 13.5002 10.25C13.5002 9.42031 12.8299 8.75 12.0002 8.75ZM17.2502 8.75C16.4205 8.75 15.7502 9.42031 15.7502 10.25C15.7502 11.0797 16.4205 11.75 17.2502 11.75C18.0799 11.75 18.7502 11.0797 18.7502 10.25C18.7502 9.42031 18.0799 8.75 17.2502 8.75ZM12.0002 0.5C5.37206 0.5 0.000181322 4.86406 0.000181322 10.25C0.000181322 12.4812 0.932994 14.525 2.47987 16.1703C1.78143 18.0172 0.328306 19.5828 0.304869 19.6016C-0.00450618 19.9297 -0.0888812 20.4078 0.0892438 20.8203C0.267369 21.2328 0.675181 21.5 1.12518 21.5C4.00799 21.5 6.28143 20.2953 7.64549 19.3297C9.00018 19.7563 10.4627 20 12.0002 20C18.6283 20 24.0002 15.6359 24.0002 10.25C24.0002 4.86406 18.6283 0.5 12.0002 0.5ZM12.0002 17.75C10.7486 17.75 9.51112 17.5578 8.32518 17.1828L7.26112 16.8453L6.34706 17.4922C5.67674 17.9656 4.75799 18.4953 3.65174 18.8516C3.99393 18.2844 4.32674 17.6469 4.58456 16.9672L5.08143 15.65L4.11581 14.6281C3.26737 13.7234 2.25018 12.2281 2.25018 10.25C2.25018 6.11563 6.62362 2.75 12.0002 2.75C17.3767 2.75 21.7502 6.11563 21.7502 10.25C21.7502 14.3844 17.3767 17.75 12.0002 17.75Z"
+                                            fill="black" />
+                                    </svg>3
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                        <div class="d_grid column-gap-28">
+                            <div class=" d_grid_items item-1"><img src="assets/images/section-2-img-2.png" alt=""></div>
+                            <div class=" d_grid_items item-2"><img src="assets/images/section-2-img-3.png" alt=""></div>
+                            <div class=" d_grid_items item-3 d-flex align-items-end"><img
+                                    src="assets/images/section-2-img-4.png" alt=""></div>
+                            <div class=" d_grid_items item-4 position-relative"><img
+                                    src="assets/images/section-2-img-5.png" alt="">
+                                <div class="section-2-more-img d-flex justify-content-center align-items-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <h2 class="fs-2xl fw_base text-gray-900 mb-0">+15</h2>
+                                        <p class="fs_xs fw_xs text-gray-900 mb-0 ">more </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-2-line mt-4 mb-4 "></div>
+                </div>
+                <div
+                    class="w-100 comment-box  d-flex flex-md-row flex-column justify-content-center align-items-center gap-21 mt-47">
+                    <img class="w-55" src="assets/images/comment-img-1.png" alt="">
+                    <input class="text-md-start text-center" type="text" name="comments-writter"
+                        placeholder="Write your comment here..."></input>
+                    <button data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                        class="white-space-nowrap post-button fs_lg fw_base text-white">Post
+                        Comment</button>
+                    <div class="modal fade" id="exampleModalToggle" aria-labelledby="exampleModalToggleLabel"
+                        tabindex="-1" aria-hidden="true" style="display: none;">
+                        <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+                            <div class="modal-dialog w-100 max-width-none modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header border-0">
+                                        <h1 class="modal-title fs-2xl fw_base" id="exampleModalToggleLabel">Create Post
+                                        </h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body border-0">
+                                        <div class=" d-flex flex-column flex-sm-row justify-content-center align-items-center gap-15">
+                                            <div class="w-100 modal-input ">
+                                                <input type="text" class="w-100 m-0"
+                                                    placeholder="Post title will be here..."></input>
+                                            </div>
+                                            <div>
+                                                <div class="dropdown d-flex justify-content-center">
+                                                    <a class="dropdown-button dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Select Event
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Event 1</a></li>
+                                                        <li><a class="dropdown-item" href="#">Event 2</a></li>
+                                                        <li><a class="dropdown-item" href="#">Event 3</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <textarea placeholder="Post description will be here..."></textarea>
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-between border-0">
+                                        <input type="file" id="select-file" hidden>
+                                        <label for="select-file fs-lg fw_sm" class="select-button w-md-100">select photo</label>
+                                        <button class="post-button fs-lg fw_base text-white"
+                                            data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Create
+                                            Post</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-47 d-flex flex-column gap-21 w-100">
+                <div class="d-flex gap-21">
+                    <img class=" w-55 h-55 curser-pointer" src="assets/images/comment-img-1.png" alt="">
+                    <div>
+                        <div class="max-h-1244 w-100 padding border-radius">
+                            <span class="fs_md fw_sm curser-pointer">Username</span>
+                            <p class="fs_base fw_sm text-gray-900 mt-2">Dictumst vulputate eget quisque iaculis
+                                hendrerit quis ut
+                                fringilla. Senectus gravida sed
+                                interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec
+                                sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</p>
+                        </div>
+                        <button
+                            class="white-space-nowrap fs_base fw_sm text-gray-900 d-flex gap-8 align-items-center border-0 bg-gray_900 mt-2 ">
+                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.5 5C19.5 5.24493 19.41 5.48134 19.2473 5.66437C19.0845 5.84741 18.8603 5.96434 18.617 5.993L18.5 6H17.655L16.424 18.52C16.357 19.1994 16.0397 19.8295 15.5338 20.2879C15.0279 20.7462 14.3697 21.0001 13.687 21H6.313C5.63035 21.0001 4.97207 20.7462 4.4662 20.2879C3.96033 19.8295 3.64302 19.1994 3.576 18.52L2.345 6H1.5C1.23478 6 0.98043 5.89464 0.792893 5.70711C0.605357 5.51957 0.5 5.26522 0.5 5C0.5 4.73478 0.605357 4.48043 0.792893 4.29289C0.98043 4.10536 1.23478 4 1.5 4H6.5C6.5 3.54037 6.59053 3.08525 6.76642 2.66061C6.94231 2.23597 7.20012 1.85013 7.52513 1.52513C7.85013 1.20012 8.23597 0.942313 8.66061 0.766422C9.08525 0.59053 9.54037 0.5 10 0.5C10.4596 0.5 10.9148 0.59053 11.3394 0.766422C11.764 0.942313 12.1499 1.20012 12.4749 1.52513C12.7999 1.85013 13.0577 2.23597 13.2336 2.66061C13.4095 3.08525 13.5 3.54037 13.5 4H18.5C18.7652 4 19.0196 4.10536 19.2071 4.29289C19.3946 4.48043 19.5 4.73478 19.5 5ZM12.25 8.25C12.0688 8.25001 11.8937 8.31564 11.7571 8.43477C11.6205 8.55389 11.5316 8.71845 11.507 8.898L11.5 9V16L11.507 16.102C11.5317 16.2815 11.6206 16.446 11.7571 16.5651C11.8937 16.6842 12.0688 16.7498 12.25 16.7498C12.4312 16.7498 12.6063 16.6842 12.7429 16.5651C12.8794 16.446 12.9683 16.2815 12.993 16.102L13 16V9L12.993 8.898C12.9684 8.71845 12.8795 8.55389 12.7429 8.43477C12.6063 8.31564 12.4312 8.25001 12.25 8.25ZM7.75 8.25C7.56876 8.25001 7.39366 8.31564 7.25707 8.43477C7.12048 8.55389 7.03165 8.71845 7.007 8.898L7 9V16L7.007 16.102C7.0317 16.2815 7.12055 16.446 7.25714 16.5651C7.39372 16.6842 7.5688 16.7498 7.75 16.7498C7.9312 16.7498 8.10628 16.6842 8.24286 16.5651C8.37945 16.446 8.4683 16.2815 8.493 16.102L8.5 16V9L8.493 8.898C8.46835 8.71845 8.37952 8.55389 8.24293 8.43477C8.10634 8.31564 7.93124 8.25001 7.75 8.25ZM10 2.5C9.60218 2.5 9.22064 2.65804 8.93934 2.93934C8.65804 3.22064 8.5 3.60218 8.5 4H11.5C11.5 3.60218 11.342 3.22064 11.0607 2.93934C10.7794 2.65804 10.3978 2.5 10 2.5Z"
+                                    fill="#666666" />
+                            </svg>
+                            Remove Comment
+                        </button>
+                    </div>
+                </div>
+                <div class="d-flex gap-21">
+                    <img class=" w-55 h-55 curser-pointer" src="assets/images/comment-img-2.png" alt="">
+                    <div>
+                        <div class="max-h-1244 w-100 padding border-radius">
+                            <span class="fs_md fw_sm curser-pointer">Username</span>
+                            <p class="fs_base fw_sm text-gray-900 mt-2">Dictumst vulputate eget quisque iaculis
+                                hendrerit quis ut
+                                fringilla.</p>
+                        </div>
+                        <button
+                            class="white-space-nowrap fs_base fw_sm text-gray-900 d-flex gap-8 align-items-center border-0 bg-gray_900 mt-2 ">
+                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.5 5C19.5 5.24493 19.41 5.48134 19.2473 5.66437C19.0845 5.84741 18.8603 5.96434 18.617 5.993L18.5 6H17.655L16.424 18.52C16.357 19.1994 16.0397 19.8295 15.5338 20.2879C15.0279 20.7462 14.3697 21.0001 13.687 21H6.313C5.63035 21.0001 4.97207 20.7462 4.4662 20.2879C3.96033 19.8295 3.64302 19.1994 3.576 18.52L2.345 6H1.5C1.23478 6 0.98043 5.89464 0.792893 5.70711C0.605357 5.51957 0.5 5.26522 0.5 5C0.5 4.73478 0.605357 4.48043 0.792893 4.29289C0.98043 4.10536 1.23478 4 1.5 4H6.5C6.5 3.54037 6.59053 3.08525 6.76642 2.66061C6.94231 2.23597 7.20012 1.85013 7.52513 1.52513C7.85013 1.20012 8.23597 0.942313 8.66061 0.766422C9.08525 0.59053 9.54037 0.5 10 0.5C10.4596 0.5 10.9148 0.59053 11.3394 0.766422C11.764 0.942313 12.1499 1.20012 12.4749 1.52513C12.7999 1.85013 13.0577 2.23597 13.2336 2.66061C13.4095 3.08525 13.5 3.54037 13.5 4H18.5C18.7652 4 19.0196 4.10536 19.2071 4.29289C19.3946 4.48043 19.5 4.73478 19.5 5ZM12.25 8.25C12.0688 8.25001 11.8937 8.31564 11.7571 8.43477C11.6205 8.55389 11.5316 8.71845 11.507 8.898L11.5 9V16L11.507 16.102C11.5317 16.2815 11.6206 16.446 11.7571 16.5651C11.8937 16.6842 12.0688 16.7498 12.25 16.7498C12.4312 16.7498 12.6063 16.6842 12.7429 16.5651C12.8794 16.446 12.9683 16.2815 12.993 16.102L13 16V9L12.993 8.898C12.9684 8.71845 12.8795 8.55389 12.7429 8.43477C12.6063 8.31564 12.4312 8.25001 12.25 8.25ZM7.75 8.25C7.56876 8.25001 7.39366 8.31564 7.25707 8.43477C7.12048 8.55389 7.03165 8.71845 7.007 8.898L7 9V16L7.007 16.102C7.0317 16.2815 7.12055 16.446 7.25714 16.5651C7.39372 16.6842 7.5688 16.7498 7.75 16.7498C7.9312 16.7498 8.10628 16.6842 8.24286 16.5651C8.37945 16.446 8.4683 16.2815 8.493 16.102L8.5 16V9L8.493 8.898C8.46835 8.71845 8.37952 8.55389 8.24293 8.43477C8.10634 8.31564 7.93124 8.25001 7.75 8.25ZM10 2.5C9.60218 2.5 9.22064 2.65804 8.93934 2.93934C8.65804 3.22064 8.5 3.60218 8.5 4H11.5C11.5 3.60218 11.342 3.22064 11.0607 2.93934C10.7794 2.65804 10.3978 2.5 10 2.5Z"
+                                    fill="#666666" />
+                            </svg>
+                            Remove Comment
+                        </button>
+                    </div>
+                </div>
+                <div class="d-flex gap-21">
+                    <img class=" w-55 h-55 curser-pointer" src="assets/images/comment-img-3.png" alt="">
+                    <div>
+                        <div class="max-h-1244 w-100 padding border-radius">
+                            <span class="fs_md fw_sm curser-pointer">Username</span>
+                            <p class="fs_base fw_sm text-gray-900 mt-2">Senectus gravida sed interdum pretium at
+                                quam morbi. Nunc,
+                                libero nam cursus sem faucibus urna. Hendrerit vulputate in
+                                duis donec sit. Ut vitae dolor fringilla urna eget aliquet.</p>
+                        </div>
+                        <button
+                            class="white-space-nowrap fs_base fw_sm text-gray-900 d-flex gap-8 align-items-center border-0 bg-gray_900 mt-2 ">
+                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.5 5C19.5 5.24493 19.41 5.48134 19.2473 5.66437C19.0845 5.84741 18.8603 5.96434 18.617 5.993L18.5 6H17.655L16.424 18.52C16.357 19.1994 16.0397 19.8295 15.5338 20.2879C15.0279 20.7462 14.3697 21.0001 13.687 21H6.313C5.63035 21.0001 4.97207 20.7462 4.4662 20.2879C3.96033 19.8295 3.64302 19.1994 3.576 18.52L2.345 6H1.5C1.23478 6 0.98043 5.89464 0.792893 5.70711C0.605357 5.51957 0.5 5.26522 0.5 5C0.5 4.73478 0.605357 4.48043 0.792893 4.29289C0.98043 4.10536 1.23478 4 1.5 4H6.5C6.5 3.54037 6.59053 3.08525 6.76642 2.66061C6.94231 2.23597 7.20012 1.85013 7.52513 1.52513C7.85013 1.20012 8.23597 0.942313 8.66061 0.766422C9.08525 0.59053 9.54037 0.5 10 0.5C10.4596 0.5 10.9148 0.59053 11.3394 0.766422C11.764 0.942313 12.1499 1.20012 12.4749 1.52513C12.7999 1.85013 13.0577 2.23597 13.2336 2.66061C13.4095 3.08525 13.5 3.54037 13.5 4H18.5C18.7652 4 19.0196 4.10536 19.2071 4.29289C19.3946 4.48043 19.5 4.73478 19.5 5ZM12.25 8.25C12.0688 8.25001 11.8937 8.31564 11.7571 8.43477C11.6205 8.55389 11.5316 8.71845 11.507 8.898L11.5 9V16L11.507 16.102C11.5317 16.2815 11.6206 16.446 11.7571 16.5651C11.8937 16.6842 12.0688 16.7498 12.25 16.7498C12.4312 16.7498 12.6063 16.6842 12.7429 16.5651C12.8794 16.446 12.9683 16.2815 12.993 16.102L13 16V9L12.993 8.898C12.9684 8.71845 12.8795 8.55389 12.7429 8.43477C12.6063 8.31564 12.4312 8.25001 12.25 8.25ZM7.75 8.25C7.56876 8.25001 7.39366 8.31564 7.25707 8.43477C7.12048 8.55389 7.03165 8.71845 7.007 8.898L7 9V16L7.007 16.102C7.0317 16.2815 7.12055 16.446 7.25714 16.5651C7.39372 16.6842 7.5688 16.7498 7.75 16.7498C7.9312 16.7498 8.10628 16.6842 8.24286 16.5651C8.37945 16.446 8.4683 16.2815 8.493 16.102L8.5 16V9L8.493 8.898C8.46835 8.71845 8.37952 8.55389 8.24293 8.43477C8.10634 8.31564 7.93124 8.25001 7.75 8.25ZM10 2.5C9.60218 2.5 9.22064 2.65804 8.93934 2.93934C8.65804 3.22064 8.5 3.60218 8.5 4H11.5C11.5 3.60218 11.342 3.22064 11.0607 2.93934C10.7794 2.65804 10.3978 2.5 10 2.5Z"
+                                    fill="#666666" />
+                            </svg>
+                            Remove Comment
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-3 pb-4">
+        <div class="container">
+            <div class="padding-34 container-border mt-30">
+                <div class="row d-flex row-gap-5">
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex gap-4 align-items-center mb-45">
+                            <img src="assets/images/section-2-img-1.png" alt="">
+                            <div>
+                                <h3 class="fs-xl fw_base">Username</h3>
+                                <span class="fs-base fw_xs text-gray-900">Post event name</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="fs-xl fw_base">Fusce adipiscing nunc et tellus eu, tristique sodales sit aliquet.
+                            </h1>
+                            <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-2 mb-4">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path
+                                            d="M7 11H9V13H7V11ZM7 15H9V17H7V15ZM11 11H13V13H11V11ZM11 15H13V17H11V15ZM15 11H17V13H15V11ZM15 15H17V17H15V15Z"
+                                            fill="black" />
+                                        <path
+                                            d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z"
+                                            fill="black" />
+                                    </g>
+                                </svg>
+                                10/02/2022</span>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2  ">Dictumst
+                                vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus
+                                gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</article>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-3 ">Sed
+                                interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna.
+                                Hendrerit vulputate in duis donec sit. Ut
+                                vitae dolor fringilla urna eget aliquet.</article>
+                            <div class="d-flex gap-5 mt-4">
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.5 1C3.4625 1 1 3.4625 1 6.5C1 12 7.5 17 11 18.163C14.5 17 21 12 21 6.5C21 3.4625 18.5375 1 15.5 1C13.64 1 11.995 1.9235 11 3.337C10.4928 2.6146 9.81908 2.02505 9.03577 1.61824C8.25245 1.21144 7.38265 0.999377 6.5 1Z"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>10
+                                </span>
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.75018 8.75C5.92049 8.75 5.25018 9.42031 5.25018 10.25C5.25018 11.0797 5.92049 11.75 6.75018 11.75C7.57987 11.75 8.25018 11.0797 8.25018 10.25C8.25018 9.42031 7.57987 8.75 6.75018 8.75ZM12.0002 8.75C11.1705 8.75 10.5002 9.42031 10.5002 10.25C10.5002 11.0797 11.1705 11.75 12.0002 11.75C12.8299 11.75 13.5002 11.0797 13.5002 10.25C13.5002 9.42031 12.8299 8.75 12.0002 8.75ZM17.2502 8.75C16.4205 8.75 15.7502 9.42031 15.7502 10.25C15.7502 11.0797 16.4205 11.75 17.2502 11.75C18.0799 11.75 18.7502 11.0797 18.7502 10.25C18.7502 9.42031 18.0799 8.75 17.2502 8.75ZM12.0002 0.5C5.37206 0.5 0.000181322 4.86406 0.000181322 10.25C0.000181322 12.4812 0.932994 14.525 2.47987 16.1703C1.78143 18.0172 0.328306 19.5828 0.304869 19.6016C-0.00450618 19.9297 -0.0888812 20.4078 0.0892438 20.8203C0.267369 21.2328 0.675181 21.5 1.12518 21.5C4.00799 21.5 6.28143 20.2953 7.64549 19.3297C9.00018 19.7563 10.4627 20 12.0002 20C18.6283 20 24.0002 15.6359 24.0002 10.25C24.0002 4.86406 18.6283 0.5 12.0002 0.5ZM12.0002 17.75C10.7486 17.75 9.51112 17.5578 8.32518 17.1828L7.26112 16.8453L6.34706 17.4922C5.67674 17.9656 4.75799 18.4953 3.65174 18.8516C3.99393 18.2844 4.32674 17.6469 4.58456 16.9672L5.08143 15.65L4.11581 14.6281C3.26737 13.7234 2.25018 12.2281 2.25018 10.25C2.25018 6.11563 6.62362 2.75 12.0002 2.75C17.3767 2.75 21.7502 6.11563 21.7502 10.25C21.7502 14.3844 17.3767 17.75 12.0002 17.75Z"
+                                            fill="black" />
+                                    </svg>3
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                        <div class="d_grid column-gap-28">
+                            <div class=" d_grid_items item-1"><img src="assets/images/section-2-img-2.png" alt=""></div>
+                            <div class=" d_grid_items item-2"><img src="assets/images/section-2-img-3.png" alt=""></div>
+                            <div class=" d_grid_items item-3 d-flex align-items-end"><img
+                                    src="assets/images/section-2-img-4.png" alt=""></div>
+                            <div class=" d_grid_items item-4 position-relative"><img
+                                    src="assets/images/section-2-img-5.png" alt="">
+                                <div class="section-2-more-img d-flex justify-content-center align-items-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <h2 class="fs-2xl fw_base text-gray-900 mb-0">+15</h2>
+                                        <p class="fs_xs fw_xs text-gray-900 mb-0 ">more </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="padding-34 container-border mt-30">
+                <div class="row d-flex row-gap-5">
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex gap-4 align-items-center mb-45">
+                            <img src="assets/images/section-2-img-1.png" alt="">
+                            <div>
+                                <h3 class="fs-xl fw_base">Username</h3>
+                                <span class="fs-base fw_xs text-gray-900">Post event name</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="fs-xl fw_base">Fusce adipiscing nunc et tellus eu, tristique sodales sit aliquet.
+                            </h1>
+                            <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-2 mb-4">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path
+                                            d="M7 11H9V13H7V11ZM7 15H9V17H7V15ZM11 11H13V13H11V11ZM11 15H13V17H11V15ZM15 11H17V13H15V11ZM15 15H17V17H15V15Z"
+                                            fill="black" />
+                                        <path
+                                            d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z"
+                                            fill="black" />
+                                    </g>
+                                </svg>
+                                10/02/2022</span>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2  ">Dictumst
+                                vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus
+                                gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</article>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-3 ">Sed
+                                interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna.
+                                Hendrerit vulputate in duis donec sit. Ut
+                                vitae dolor fringilla urna eget aliquet.</article>
+                            <div class="d-flex gap-5 mt-4">
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.5 1C3.4625 1 1 3.4625 1 6.5C1 12 7.5 17 11 18.163C14.5 17 21 12 21 6.5C21 3.4625 18.5375 1 15.5 1C13.64 1 11.995 1.9235 11 3.337C10.4928 2.6146 9.81908 2.02505 9.03577 1.61824C8.25245 1.21144 7.38265 0.999377 6.5 1Z"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>10
+                                </span>
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.75018 8.75C5.92049 8.75 5.25018 9.42031 5.25018 10.25C5.25018 11.0797 5.92049 11.75 6.75018 11.75C7.57987 11.75 8.25018 11.0797 8.25018 10.25C8.25018 9.42031 7.57987 8.75 6.75018 8.75ZM12.0002 8.75C11.1705 8.75 10.5002 9.42031 10.5002 10.25C10.5002 11.0797 11.1705 11.75 12.0002 11.75C12.8299 11.75 13.5002 11.0797 13.5002 10.25C13.5002 9.42031 12.8299 8.75 12.0002 8.75ZM17.2502 8.75C16.4205 8.75 15.7502 9.42031 15.7502 10.25C15.7502 11.0797 16.4205 11.75 17.2502 11.75C18.0799 11.75 18.7502 11.0797 18.7502 10.25C18.7502 9.42031 18.0799 8.75 17.2502 8.75ZM12.0002 0.5C5.37206 0.5 0.000181322 4.86406 0.000181322 10.25C0.000181322 12.4812 0.932994 14.525 2.47987 16.1703C1.78143 18.0172 0.328306 19.5828 0.304869 19.6016C-0.00450618 19.9297 -0.0888812 20.4078 0.0892438 20.8203C0.267369 21.2328 0.675181 21.5 1.12518 21.5C4.00799 21.5 6.28143 20.2953 7.64549 19.3297C9.00018 19.7563 10.4627 20 12.0002 20C18.6283 20 24.0002 15.6359 24.0002 10.25C24.0002 4.86406 18.6283 0.5 12.0002 0.5ZM12.0002 17.75C10.7486 17.75 9.51112 17.5578 8.32518 17.1828L7.26112 16.8453L6.34706 17.4922C5.67674 17.9656 4.75799 18.4953 3.65174 18.8516C3.99393 18.2844 4.32674 17.6469 4.58456 16.9672L5.08143 15.65L4.11581 14.6281C3.26737 13.7234 2.25018 12.2281 2.25018 10.25C2.25018 6.11563 6.62362 2.75 12.0002 2.75C17.3767 2.75 21.7502 6.11563 21.7502 10.25C21.7502 14.3844 17.3767 17.75 12.0002 17.75Z"
+                                            fill="black" />
+                                    </svg>3
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                        <div class="d_grid column-gap-28">
+                            <div class=" d_grid_items item-1"><img src="assets/images/section-2-img-2.png" alt=""></div>
+                            <div class=" d_grid_items item-2"><img src="assets/images/section-2-img-3.png" alt=""></div>
+                            <div class=" d_grid_items item-3 d-flex align-items-end"><img
+                                    src="assets/images/section-2-img-4.png" alt=""></div>
+                            <div class=" d_grid_items item-4 position-relative"><img
+                                    src="assets/images/section-2-img-5.png" alt="">
+                                <div class="section-2-more-img d-flex justify-content-center align-items-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <h2 class="fs-2xl fw_base text-gray-900 mb-0">+15</h2>
+                                        <p class="fs_xs fw_xs text-gray-900 mb-0 ">more </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="padding-34 container-border mt-30">
+                <div class="row d-flex row-gap-5">
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex gap-4 align-items-center mb-45">
+                            <img src="assets/images/section-2-img-1.png" alt="">
+                            <div>
+                                <h3 class="fs-xl fw_base">Username</h3>
+                                <span class="fs-base fw_xs text-gray-900">Post event name</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="fs-xl fw_base">Fusce adipiscing nunc et tellus eu, tristique sodales sit aliquet.
+                            </h1>
+                            <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-2 mb-4">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path
+                                            d="M7 11H9V13H7V11ZM7 15H9V17H7V15ZM11 11H13V13H11V11ZM11 15H13V17H11V15ZM15 11H17V13H15V11ZM15 15H17V17H15V15Z"
+                                            fill="black" />
+                                        <path
+                                            d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z"
+                                            fill="black" />
+                                    </g>
+                                </svg>
+                                10/02/2022</span>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2  ">Dictumst
+                                vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus
+                                gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</article>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-3 ">Sed
+                                interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna.
+                                Hendrerit vulputate in duis donec sit. Ut
+                                vitae dolor fringilla urna eget aliquet.</article>
+                            <div class="d-flex gap-5 mt-4">
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.5 1C3.4625 1 1 3.4625 1 6.5C1 12 7.5 17 11 18.163C14.5 17 21 12 21 6.5C21 3.4625 18.5375 1 15.5 1C13.64 1 11.995 1.9235 11 3.337C10.4928 2.6146 9.81908 2.02505 9.03577 1.61824C8.25245 1.21144 7.38265 0.999377 6.5 1Z"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>10
+                                </span>
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.75018 8.75C5.92049 8.75 5.25018 9.42031 5.25018 10.25C5.25018 11.0797 5.92049 11.75 6.75018 11.75C7.57987 11.75 8.25018 11.0797 8.25018 10.25C8.25018 9.42031 7.57987 8.75 6.75018 8.75ZM12.0002 8.75C11.1705 8.75 10.5002 9.42031 10.5002 10.25C10.5002 11.0797 11.1705 11.75 12.0002 11.75C12.8299 11.75 13.5002 11.0797 13.5002 10.25C13.5002 9.42031 12.8299 8.75 12.0002 8.75ZM17.2502 8.75C16.4205 8.75 15.7502 9.42031 15.7502 10.25C15.7502 11.0797 16.4205 11.75 17.2502 11.75C18.0799 11.75 18.7502 11.0797 18.7502 10.25C18.7502 9.42031 18.0799 8.75 17.2502 8.75ZM12.0002 0.5C5.37206 0.5 0.000181322 4.86406 0.000181322 10.25C0.000181322 12.4812 0.932994 14.525 2.47987 16.1703C1.78143 18.0172 0.328306 19.5828 0.304869 19.6016C-0.00450618 19.9297 -0.0888812 20.4078 0.0892438 20.8203C0.267369 21.2328 0.675181 21.5 1.12518 21.5C4.00799 21.5 6.28143 20.2953 7.64549 19.3297C9.00018 19.7563 10.4627 20 12.0002 20C18.6283 20 24.0002 15.6359 24.0002 10.25C24.0002 4.86406 18.6283 0.5 12.0002 0.5ZM12.0002 17.75C10.7486 17.75 9.51112 17.5578 8.32518 17.1828L7.26112 16.8453L6.34706 17.4922C5.67674 17.9656 4.75799 18.4953 3.65174 18.8516C3.99393 18.2844 4.32674 17.6469 4.58456 16.9672L5.08143 15.65L4.11581 14.6281C3.26737 13.7234 2.25018 12.2281 2.25018 10.25C2.25018 6.11563 6.62362 2.75 12.0002 2.75C17.3767 2.75 21.7502 6.11563 21.7502 10.25C21.7502 14.3844 17.3767 17.75 12.0002 17.75Z"
+                                            fill="black" />
+                                    </svg>3
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                        <div class="d_grid column-gap-28">
+                            <div class=" d_grid_items item-1"><img src="assets/images/section-2-img-2.png" alt=""></div>
+                            <div class=" d_grid_items item-2"><img src="assets/images/section-2-img-3.png" alt=""></div>
+                            <div class=" d_grid_items item-3 d-flex align-items-end"><img
+                                    src="assets/images/section-2-img-4.png" alt=""></div>
+                            <div class=" d_grid_items item-4 position-relative"><img
+                                    src="assets/images/section-2-img-5.png" alt="">
+                                <div class="section-2-more-img d-flex justify-content-center align-items-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <h2 class="fs-2xl fw_base text-gray-900 mb-0">+15</h2>
+                                        <p class="fs_xs fw_xs text-gray-900 mb-0 ">more </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="padding-34 container-border mt-30">
+                <div class="row d-flex row-gap-5">
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex gap-4 align-items-center mb-45">
+                            <img src="assets/images/section-2-img-1.png" alt="">
+                            <div>
+                                <h3 class="fs-xl fw_base">Username</h3>
+                                <span class="fs-base fw_xs text-gray-900">Post event name</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="fs-xl fw_base">Fusce adipiscing nunc et tellus eu, tristique sodales sit aliquet.
+                            </h1>
+                            <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-2 mb-4">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path
+                                            d="M7 11H9V13H7V11ZM7 15H9V17H7V15ZM11 11H13V13H11V11ZM11 15H13V17H11V15ZM15 11H17V13H15V11ZM15 15H17V17H15V15Z"
+                                            fill="black" />
+                                        <path
+                                            d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z"
+                                            fill="black" />
+                                    </g>
+                                </svg>
+                                10/02/2022</span>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2  ">Dictumst
+                                vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus
+                                gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</article>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-3 ">Sed
+                                interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna.
+                                Hendrerit vulputate in duis donec sit. Ut
+                                vitae dolor fringilla urna eget aliquet.</article>
+                            <div class="d-flex gap-5 mt-4">
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.5 1C3.4625 1 1 3.4625 1 6.5C1 12 7.5 17 11 18.163C14.5 17 21 12 21 6.5C21 3.4625 18.5375 1 15.5 1C13.64 1 11.995 1.9235 11 3.337C10.4928 2.6146 9.81908 2.02505 9.03577 1.61824C8.25245 1.21144 7.38265 0.999377 6.5 1Z"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>10
+                                </span>
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.75018 8.75C5.92049 8.75 5.25018 9.42031 5.25018 10.25C5.25018 11.0797 5.92049 11.75 6.75018 11.75C7.57987 11.75 8.25018 11.0797 8.25018 10.25C8.25018 9.42031 7.57987 8.75 6.75018 8.75ZM12.0002 8.75C11.1705 8.75 10.5002 9.42031 10.5002 10.25C10.5002 11.0797 11.1705 11.75 12.0002 11.75C12.8299 11.75 13.5002 11.0797 13.5002 10.25C13.5002 9.42031 12.8299 8.75 12.0002 8.75ZM17.2502 8.75C16.4205 8.75 15.7502 9.42031 15.7502 10.25C15.7502 11.0797 16.4205 11.75 17.2502 11.75C18.0799 11.75 18.7502 11.0797 18.7502 10.25C18.7502 9.42031 18.0799 8.75 17.2502 8.75ZM12.0002 0.5C5.37206 0.5 0.000181322 4.86406 0.000181322 10.25C0.000181322 12.4812 0.932994 14.525 2.47987 16.1703C1.78143 18.0172 0.328306 19.5828 0.304869 19.6016C-0.00450618 19.9297 -0.0888812 20.4078 0.0892438 20.8203C0.267369 21.2328 0.675181 21.5 1.12518 21.5C4.00799 21.5 6.28143 20.2953 7.64549 19.3297C9.00018 19.7563 10.4627 20 12.0002 20C18.6283 20 24.0002 15.6359 24.0002 10.25C24.0002 4.86406 18.6283 0.5 12.0002 0.5ZM12.0002 17.75C10.7486 17.75 9.51112 17.5578 8.32518 17.1828L7.26112 16.8453L6.34706 17.4922C5.67674 17.9656 4.75799 18.4953 3.65174 18.8516C3.99393 18.2844 4.32674 17.6469 4.58456 16.9672L5.08143 15.65L4.11581 14.6281C3.26737 13.7234 2.25018 12.2281 2.25018 10.25C2.25018 6.11563 6.62362 2.75 12.0002 2.75C17.3767 2.75 21.7502 6.11563 21.7502 10.25C21.7502 14.3844 17.3767 17.75 12.0002 17.75Z"
+                                            fill="black" />
+                                    </svg>3
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                        <div class="d_grid column-gap-28">
+                            <div class=" d_grid_items item-1"><img src="assets/images/section-2-img-2.png" alt=""></div>
+                            <div class=" d_grid_items item-2"><img src="assets/images/section-2-img-3.png" alt=""></div>
+                            <div class=" d_grid_items item-3 d-flex align-items-end"><img
+                                    src="assets/images/section-2-img-4.png" alt=""></div>
+                            <div class=" d_grid_items item-4 position-relative"><img
+                                    src="assets/images/section-2-img-5.png" alt="">
+                                <div class="section-2-more-img d-flex justify-content-center align-items-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <h2 class="fs-2xl fw_base text-gray-900 mb-0">+15</h2>
+                                        <p class="fs_xs fw_xs text-gray-900 mb-0 ">more </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="padding-34 container-border mt-30">
+                <div class="row d-flex row-gap-5">
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex gap-4 align-items-center mb-45">
+                            <img src="assets/images/section-2-img-1.png" alt="">
+                            <div>
+                                <h3 class="fs-xl fw_base">Username</h3>
+                                <span class="fs-base fw_xs text-gray-900">Post event name</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="fs-xl fw_base">Fusce adipiscing nunc et tellus eu, tristique sodales sit aliquet.
+                            </h1>
+                            <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-2 mb-4">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.6">
+                                        <path
+                                            d="M7 11H9V13H7V11ZM7 15H9V17H7V15ZM11 11H13V13H11V11ZM11 15H13V17H11V15ZM15 11H17V13H15V11ZM15 15H17V17H15V15Z"
+                                            fill="black" />
+                                        <path
+                                            d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z"
+                                            fill="black" />
+                                    </g>
+                                </svg>
+                                10/02/2022</span>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2  ">Dictumst
+                                vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus
+                                gravida sed interdum pretium at quam
+                                morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit.
+                                Ut vitae dolor fringilla urna
+                                eget aliquet.</article>
+                            <article class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-2 mt-3 ">Sed
+                                interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna.
+                                Hendrerit vulputate in duis donec sit. Ut
+                                vitae dolor fringilla urna eget aliquet.</article>
+                            <div class="d-flex gap-5 mt-4">
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.5 1C3.4625 1 1 3.4625 1 6.5C1 12 7.5 17 11 18.163C14.5 17 21 12 21 6.5C21 3.4625 18.5375 1 15.5 1C13.64 1 11.995 1.9235 11 3.337C10.4928 2.6146 9.81908 2.02505 9.03577 1.61824C8.25245 1.21144 7.38265 0.999377 6.5 1Z"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>10
+                                </span>
+                                <span class="fs-base fw_xs text-gray-900 d-flex align-items-center gap-3">
+                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.75018 8.75C5.92049 8.75 5.25018 9.42031 5.25018 10.25C5.25018 11.0797 5.92049 11.75 6.75018 11.75C7.57987 11.75 8.25018 11.0797 8.25018 10.25C8.25018 9.42031 7.57987 8.75 6.75018 8.75ZM12.0002 8.75C11.1705 8.75 10.5002 9.42031 10.5002 10.25C10.5002 11.0797 11.1705 11.75 12.0002 11.75C12.8299 11.75 13.5002 11.0797 13.5002 10.25C13.5002 9.42031 12.8299 8.75 12.0002 8.75ZM17.2502 8.75C16.4205 8.75 15.7502 9.42031 15.7502 10.25C15.7502 11.0797 16.4205 11.75 17.2502 11.75C18.0799 11.75 18.7502 11.0797 18.7502 10.25C18.7502 9.42031 18.0799 8.75 17.2502 8.75ZM12.0002 0.5C5.37206 0.5 0.000181322 4.86406 0.000181322 10.25C0.000181322 12.4812 0.932994 14.525 2.47987 16.1703C1.78143 18.0172 0.328306 19.5828 0.304869 19.6016C-0.00450618 19.9297 -0.0888812 20.4078 0.0892438 20.8203C0.267369 21.2328 0.675181 21.5 1.12518 21.5C4.00799 21.5 6.28143 20.2953 7.64549 19.3297C9.00018 19.7563 10.4627 20 12.0002 20C18.6283 20 24.0002 15.6359 24.0002 10.25C24.0002 4.86406 18.6283 0.5 12.0002 0.5ZM12.0002 17.75C10.7486 17.75 9.51112 17.5578 8.32518 17.1828L7.26112 16.8453L6.34706 17.4922C5.67674 17.9656 4.75799 18.4953 3.65174 18.8516C3.99393 18.2844 4.32674 17.6469 4.58456 16.9672L5.08143 15.65L4.11581 14.6281C3.26737 13.7234 2.25018 12.2281 2.25018 10.25C2.25018 6.11563 6.62362 2.75 12.0002 2.75C17.3767 2.75 21.7502 6.11563 21.7502 10.25C21.7502 14.3844 17.3767 17.75 12.0002 17.75Z"
+                                            fill="black" />
+                                    </svg>3
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                        <div class="d_grid column-gap-28">
+                            <div class=" d_grid_items item-1"><img src="assets/images/section-2-img-2.png" alt=""></div>
+                            <div class=" d_grid_items item-2"><img src="assets/images/section-2-img-3.png" alt=""></div>
+                            <div class=" d_grid_items item-3 d-flex align-items-end"><img
+                                    src="assets/images/section-2-img-4.png" alt=""></div>
+                            <div class=" d_grid_items item-4 position-relative"><img
+                                    src="assets/images/section-2-img-5.png" alt="">
+                                <div class="section-2-more-img d-flex justify-content-center align-items-center">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <h2 class="fs-2xl fw_base text-gray-900 mb-0">+15</h2>
+                                        <p class="fs_xs fw_xs text-gray-900 mb-0 ">more </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer d-flex flex-column justify-content-end  align-items-center">
         <div class="container">
             <div class="row">
